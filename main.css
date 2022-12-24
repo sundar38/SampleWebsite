@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.navbar{
+   
+    width: 100%;
+    position: fixed;
+    background-color: black;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container .navitems ul{
+    display: flex;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.navitems{
+    padding: 0 10px;
+}
+.navitems li{
+    padding: 0 10px;    
+}
+.navitems a{
+    text-decoration: none;
+    color: white;
+}
+.content-section{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: red; 
+    padding: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    cursor: pointer;
+    padding: 20px 84px;
+}
+.content-section:hover{
+    color: blue; 
+}
+.content-section .container1{
+    padding: 15px;
+}
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 52px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+.footer .linksection1 .links1{
+    padding: 15px;
+}
+.footer .linksection1 .links2{
+    padding: 15px;
+}
+.footer .linksection1 .links3{
+    padding: 15px;
+}
+.footer .linksection2 .links4{
+    padding: 15px;
+}
+.footer .linksection2 .links5{
+    padding: 15px;
+}
+.footer .linksection2 .links6{
+    padding: 15px;
+}
+
+
